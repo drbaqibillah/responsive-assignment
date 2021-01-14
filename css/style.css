@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+#one {
+    background-color: #FFFBF0;
+}
+#two {
+    background-color: #E5E5E5;
+}
+
+h3 {
+    color: #FABE4C;
+}
+h2,h1 {
+    color: #363958;
+}
+
+
+
+
+.btn {
+    background-color: #A4BC46;
+    color: white;
+    
+}
+
+
+
+
+
+
+.panda-card-footer {
+    background-color: white;
+    border: 0;
+}
+
+.last-penguin img {
+    width: 600px;
+    height: 355px;
+    margin: 100px;
+}
+
+.penguine-side img {
+    width: 78px;
+    height: 82px;
+    
+}
+
+#Subscribe {
+    background-color:#A4BC46 ;
+}
+
+.penguine-three-side {
+    width: 490px; 
+    height: 135px; 
+    margin-top: 30px; 
+    border: 0;
+    box-shadow: 5px 10px 18px #eceaea;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .sidebar {
+    float: none;
+    width: 100%;
+    }
+    .last-penguin img {
+        width: 350px;
+        height: 200px;
+        margin: 100px
+
+    }
+
+    .penguine-three-side {
+        width: 290px; 
+        height: 105px; 
+        margin-top: 10px; 
+        border: 0;
+        box-shadow: 5px 10px 18px #eceaea;
+        border-radius: 10px;
+    }
+
+
+}
+
+.penguin-card img {
+    width: 220px;
+    height: 260px;
+    background-color: #F1F1F1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.penguin-card {
+    border: 0;
+    box-shadow: 5px;
+    border-radius: 20px;
+}
